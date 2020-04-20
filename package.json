@@ -1,7 +1,7 @@
 {
     "name": "webxr-test",
     "version": "1.0.0",
-    "main": "index.ts",
+    "main": "src/index.ts",
     "repository": "git@github.com:Astrak/webxr-test.git",
     "author": "Atrahasis <coffre.a@gmail.com>",
     "license": "MIT",
@@ -15,6 +15,7 @@
     },
     "dependencies": {},
     "scripts": {
-        "start": "webpack-dev-server"
+        "start": "webpack-dev-server",
+        "upload": "webpack && surge --domain webxr-test.surge.sh"
     }
 }
