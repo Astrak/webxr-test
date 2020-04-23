@@ -6,6 +6,7 @@
     "author": "Atrahasis <coffre.a@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "@types/w3c-generic-sensor": "^1.0.2",
         "source-map-loader": "^0.2.4",
         "ts-loader": "^7.0.1",
         "typescript": "^3.8.3",
@@ -13,7 +14,9 @@
         "webpack-cli": "^3.3.11",
         "webpack-dev-server": "^3.10.3"
     },
-    "dependencies": {},
+    "dependencies": {
+        "three": "^0.115.0"
+    },
     "scripts": {
         "start": "webpack-dev-server",
         "upload": "webpack && surge --domain webxr-test.surge.sh"
